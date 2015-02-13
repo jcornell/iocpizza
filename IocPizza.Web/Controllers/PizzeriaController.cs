@@ -2,7 +2,7 @@
 
 namespace IocPizza.Web.Controllers
 {
-    using System.Collections.Generic;
+    using System;
 
     using IocPizza.Lib;
 
@@ -13,6 +13,10 @@ namespace IocPizza.Web.Controllers
         public PizzeriaController(IMenu menu)
         {
             _menu = menu;
+            if (_menu == null)
+            {
+                throw new Exception("Menu was null for Pizzeria controller");
+            }
         }
 
         public ActionResult Index()
@@ -23,7 +27,11 @@ namespace IocPizza.Web.Controllers
 
         public ActionResult Menu()
         {
-            ViewBag.MenuItems = _menu.MenuItems ?? new List<MenuItem>() { new MenuItem { Title = "Sicilian", Price = 12.88m }, new MenuItem { Title = "Neapolitan", Price = 11.34m} };
+            if (_menu.MenuItems == null)
+            {
+                throw new Exception("Menu.MenuItems was null for Pizzeria controller");
+            }
+            ViewBag.MenuItems = _menu.MenuItems;
             return View();
         }
 

@@ -40,6 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CookStatus.cs" />
+    <Compile Include="IMenuFactory.cs" />
     <Compile Include="Interfaces\IBaker.cs" />
     <Compile Include="Interfaces\IIngredient.cs" />
     <Compile Include="Interfaces\IMenu.cs" />
@@ -50,6 +51,7 @@
     <Compile Include="Interfaces\IRecipe.cs" />
     <Compile Include="Interfaces\IUtensil.cs" />
     <Compile Include="Menu.cs" />
+    <Compile Include="MenuFactory.cs" />
     <Compile Include="MenuItem.cs" />
     <Compile Include="NotificationEvent.cs" />
     <Compile Include="OvenFuelType.cs" />
