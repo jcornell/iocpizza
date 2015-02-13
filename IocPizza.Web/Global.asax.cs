@@ -9,6 +9,8 @@ namespace IocPizza.Web
     using Autofac;
     using Autofac.Integration.Mvc;
 
+    using IocPizza.Lib;
+
     public class WebApiApplication : HttpApplication
     {
         protected void Application_Start()
