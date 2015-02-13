@@ -39,8 +39,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CookStatus.cs" />
+    <Compile Include="Interfaces\IBaker.cs" />
+    <Compile Include="Interfaces\IIngredient.cs" />
+    <Compile Include="Interfaces\IMenu.cs" />
+    <Compile Include="Interfaces\IMenuItem.cs" />
+    <Compile Include="Interfaces\INotificationEvent.cs" />
+    <Compile Include="Interfaces\INotificationHub.cs" />
+    <Compile Include="Interfaces\IOven.cs" />
+    <Compile Include="Interfaces\IRecipe.cs" />
+    <Compile Include="Interfaces\IUtensil.cs" />
+    <Compile Include="Menu.cs" />
+    <Compile Include="MenuItem.cs" />
+    <Compile Include="NotificationEvent.cs" />
+    <Compile Include="OvenFuelType.cs" />
     <Compile Include="PizzaBaker.cs" />
+    <Compile Include="PizzaCompleteEvent.cs" />
+    <Compile Include="PizzaSize.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recipe.cs" />
+    <Compile Include="Utensil.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\IocPizza.Data\IocPizza.Data.csproj">

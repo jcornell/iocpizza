@@ -23,7 +23,7 @@ namespace IocPizza.Web.Controllers
 
         public ActionResult Menu()
         {
-            ViewBag.MenuItems = _menu.MenuItems ?? new List<MenuItem>() { new MenuItem{Title = "Sicilian", Price = 12.88m} };
+            ViewBag.MenuItems = _menu.MenuItems ?? new List<MenuItem>() { new MenuItem { Title = "Sicilian", Price = 12.88m }, new MenuItem { Title = "Neapolitan", Price = 11.34m} };
             return View();
         }
 

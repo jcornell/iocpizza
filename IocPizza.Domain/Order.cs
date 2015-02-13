@@ -12,12 +12,4 @@ namespace IocPizza.Domain
 
         public string OrderInfo { get; set; }
     }
-
-    public interface IOrder
-    {
-        Guid OrderId { get; set; }
-        DateTime OrderCreatedOn { get; set; }
-        DateTime OrderCompletedOn { get; set; }
-        string OrderInfo { get; set; }
-    }
 }

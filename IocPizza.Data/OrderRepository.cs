@@ -32,19 +32,4 @@ namespace IocPizza.Data
             throw new NotImplementedException();
         }
     }
-
-    public interface IRepository<T>
-    {
-        T Add(T item);
-
-        T Update(T item);
-
-        T Delete(T item);
-
-        T Find(Guid id);
-
-        IEnumerable<T> FindAll();
-    }
-
-    
 }
