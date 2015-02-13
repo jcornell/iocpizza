@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IocPizza.Lib", "IocPizza.Lib\IocPizza.Lib.csproj", "{440CC5EC-6D41-44C9-904B-CAB0AB596901}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IocPizza.Web", "IocPizza.Web\IocPizza.Web.csproj", "{3EE7F492-72D4-411E-8926-620539F7F6EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IocPizza.Test", "IocPizza.Test\IocPizza.Test.csproj", "{2A9F4269-7D59-4923-9AAD-653D4FDA0E40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IocPizza.Data", "IocPizza.Data\IocPizza.Data.csproj", "{969D302B-43F4-48EF-A88E-6E609D405A64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IocPizza.Domain", "IocPizza.Domain\IocPizza.Domain.csproj", "{5BE5238F-37E4-4145-B6BA-4BC7E2480CCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{440CC5EC-6D41-44C9-904B-CAB0AB596901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{440CC5EC-6D41-44C9-904B-CAB0AB596901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{440CC5EC-6D41-44C9-904B-CAB0AB596901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{440CC5EC-6D41-44C9-904B-CAB0AB596901}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EE7F492-72D4-411E-8926-620539F7F6EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EE7F492-72D4-411E-8926-620539F7F6EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EE7F492-72D4-411E-8926-620539F7F6EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EE7F492-72D4-411E-8926-620539F7F6EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A9F4269-7D59-4923-9AAD-653D4FDA0E40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A9F4269-7D59-4923-9AAD-653D4FDA0E40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A9F4269-7D59-4923-9AAD-653D4FDA0E40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A9F4269-7D59-4923-9AAD-653D4FDA0E40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{969D302B-43F4-48EF-A88E-6E609D405A64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{969D302B-43F4-48EF-A88E-6E609D405A64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{969D302B-43F4-48EF-A88E-6E609D405A64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{969D302B-43F4-48EF-A88E-6E609D405A64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BE5238F-37E4-4145-B6BA-4BC7E2480CCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BE5238F-37E4-4145-B6BA-4BC7E2480CCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BE5238F-37E4-4145-B6BA-4BC7E2480CCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BE5238F-37E4-4145-B6BA-4BC7E2480CCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
