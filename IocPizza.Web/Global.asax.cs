@@ -27,7 +27,7 @@ namespace IocPizza.Web
             var builder = new ContainerBuilder();
 
             builder.RegisterAssemblyTypes(typeof(Lib.PizzaBaker).Assembly).AsImplementedInterfaces();
-            builder.RegisterControllers(typeof(Controllers.PizzariaController).Assembly);
+            builder.RegisterControllers(typeof(Controllers.PizzeriaController).Assembly);
           
             var container = builder.Build();
             DependencyResolver.SetResolver(new AutofacDependencyResolver(container));

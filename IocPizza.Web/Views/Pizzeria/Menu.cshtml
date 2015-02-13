@@ -1,0 +1,13 @@
+﻿<div id="body">
+    <section class="featured">
+        <h2>Menu</h2>
+        
+    </section>
+    <ul>
+            @foreach (var menuItem in @ViewBag.MenuItems)
+            {
+                <li><h3>@menuItem.Title.....$@menuItem.Price</h3></li>
+            }
+        </ul>
+</div>
+

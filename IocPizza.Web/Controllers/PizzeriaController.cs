@@ -2,13 +2,15 @@
 
 namespace IocPizza.Web.Controllers
 {
+    using System.Collections.Generic;
+
     using IocPizza.Lib;
 
-    public class PizzariaController : Controller
+    public class PizzeriaController : Controller
     {
         private readonly IMenu _menu;
 
-        public PizzariaController(IMenu menu)
+        public PizzeriaController(IMenu menu)
         {
             _menu = menu;
         }
@@ -19,9 +21,9 @@ namespace IocPizza.Web.Controllers
             return View();
         }
 
-        public ActionResult Orders()
+        public ActionResult Menu()
         {
-            
+            ViewBag.MenuItems = _menu.MenuItems ?? new List<MenuItem>() { new MenuItem{Title = "Sicilian", Price = 12.88m} };
             return View();
         }
 
