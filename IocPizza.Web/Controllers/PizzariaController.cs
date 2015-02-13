@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 
 namespace IocPizza.Web.Controllers
 {
@@ -19,11 +15,13 @@ namespace IocPizza.Web.Controllers
 
         public ActionResult Index()
         {
+            ViewBag.MenuItems = _menu.MenuItems;
             return View();
         }
 
         public ActionResult Orders()
         {
+            
             return View();
         }
 
